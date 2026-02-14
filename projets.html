@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projets - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <a href="Accueil.html">Accueil</a>
+            <a href="Compétences.html">Compétences</a>
+            <a href="projets.html" class="active" aria-current="page">Projets</a>
+            <a href="Parcours académique.html">Parcours académique</a>
+            <a href="Hobbies.html">Hobbies</a>
+            <a href="Contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="projets-section">
+            <div class="projets-content">
+                <h1><span class="accent">Mes projets</span></h1>
+                <div class="projets-slider" tabindex="0">
+                    <button class="slider-btn prev" aria-label="Projet précédent">&#10094;</button>
+                    <div class="slider-track">
+                        <div class="projet-slide active">
+                            <img src="img/Capture d'écran 2025-07-23 165620.png" alt="Application de gestion des étudiants" />
+                            <h2>Application de gestion des étudiants</h2>
+                            <p>Application permettant de gérer les informations des étudiants (ajout, modification, suppression, recherche...).</p>
+                        </div>
+                        <div class="projet-slide">
+                            <video controls>
+                                <source src="video/Projet.mp4" type="video/mp4">
+                                Vidéo du projet Whack a bug
+                            </video>
+                            <h2>Whack a bug</h2>
+                            <p>Jeu interactif développé pour s'entraîner à la programmation événementielle et à la gestion du temps.</p>
+                        </div>
+                        <div class="projet-slide">
+                            <video controls>
+                                <source src="video/projet1.mp4" type="video/mp4">
+                                Vidéo du projet éditeur de texte
+                            </video>
+                            <h2>Éditeur de texte HTML/CSS</h2>
+                            <p>Un éditeur de texte simple codé en HTML et CSS pour découvrir la manipulation du DOM et le design d'interface.</p>
+                        </div>
+                    </div>
+                    <button class="slider-btn next" aria-label="Projet suivant">&#10095;</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Diatou. Tous droits réservés.</p>
+    </footer>
+    <script src="projets-slider.js"></script>
+</body>
+</html>
