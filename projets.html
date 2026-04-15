@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projets - Portfolio</title>
     <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
     <header>
         <nav class="main-nav">
+            <button class="hamburger" id="hamburger-btn" aria-label="Ouvrir le menu" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
             <a href="index.html">Accueil</a>
             <a href="Compétences.html">Compétences</a>
             <a href="projets.html" class="active" aria-current="page">Projets</a>
@@ -27,17 +34,20 @@
                         <div class="projet-slide active">
                             <img src="img/Applicationgestionscolaire.png" alt="Application de gestion des étudiants" />
                             <h2>Application de gestion des étudiants</h2>
-                            <p>Application permettant de gérer les informations des étudiants (ajout, modification, suppression, recherche...).</p>
+                            <p>Application permettant de gérer les informations des étudiants (ajout, modification,
+                                suppression, recherche...).</p>
                         </div>
                         <div class="projet-slide active">
                             <img src="img/actusn.png" alt="Blog" />
                             <h2>Actu sn </h2>
-                            <p>Développement d'un blog personnel utilisant PHP et les principes de la POO pour partager mes découvertes en informatique et documenter ma progression en DUT.</p>
+                            <p>Développement d'un blog personnel utilisant PHP et les principes de la POO pour partager
+                                mes découvertes en informatique et documenter ma progression en DUT.</p>
                         </div>
                         <div class="projet-slide active">
                             <img src="img/Applicationmobilemoney.png" alt="Application mobile money" />
                             <h2>Application mobile money</h2>
-                            <p>Application permettant de gérer les transactions financières via un système de mobile money.</p>
+                            <p>Application permettant de gérer les transactions financières via un système de mobile
+                                money.</p>
                         </div>
                     </div>
                     <button class="slider-btn next" aria-label="Projet suivant">&#10095;</button>
@@ -48,6 +58,8 @@
     <footer>
         <p>&copy; 2025 Diatou. Tous droits réservés.</p>
     </footer>
+    <script src="menu.js"></script>
     <script src="projets-slider.js"></script>
 </body>
+
 </html>

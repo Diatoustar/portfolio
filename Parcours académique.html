@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parcours académique - Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <nav class="main-nav">
+            <button class="hamburger" id="hamburger-btn" aria-label="Ouvrir le menu" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
             <a href="index.html">Accueil</a>
             <a href="Compétences.html">Compétences</a>
             <a href="projets.html">Projets</a>
@@ -21,7 +28,10 @@
         <section class="parcours-section">
             <div class="parcours-content">
                 <h1><span class="accent">Mon parcours</span></h1>
-                <p>J'ai fait mes études élémentaires et secondaires au collège Anne Marie Javouhey où j'ai décroché mon baccalauréat avec la mention bien. Par la suite, j'ai réussi le concours d'entrée au cycle DUT à l'École Supérieure Polytechnique de Dakar où j'ai effectué ma première année universitaire en génie informatique.</p>
+                <p>J'ai fait mes études élémentaires et secondaires au collège Anne Marie Javouhey où j'ai décroché mon
+                    baccalauréat avec la mention bien. Par la suite, j'ai réussi le concours d'entrée au cycle DUT à
+                    l'École Supérieure Polytechnique de Dakar où j'ai effectué ma première année universitaire en génie
+                    informatique.</p>
                 <div class="parcours-imgs">
                     <img src="img/logo_amj.png" alt="Logo collège Anne Marie Javouhey" />
                     <img src="img/logoESP.png" alt="Logo École Supérieure Polytechnique de Dakar" />
@@ -32,5 +42,7 @@
     <footer>
         <p>&copy; 2025 Diatou. Tous droits réservés.</p>
     </footer>
+    <script src="menu.js"></script>
 </body>
+
 </html>

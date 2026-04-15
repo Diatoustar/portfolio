@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hobbies - Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <nav class="main-nav">
+            <button class="hamburger" id="hamburger-btn" aria-label="Ouvrir le menu" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
             <a href="index.html">Accueil</a>
             <a href="Compétences.html">Compétences</a>
             <a href="projets.html">Projets</a>
@@ -21,7 +28,13 @@
         <section class="hobbies-section">
             <div class="hobbies-content">
                 <h1><span class="accent">Mes hobbies</span></h1>
-                <p>Entre deux sessions de code ou de modélisation, je quitte l'écran pour explorer d'autres horizons créatifs. Passionnée par le visuel, je cultive mon sens du détail et de l'esthétique à travers la photographie et la mode. Si la musique et la lecture nourrissent mon imaginaire au quotidien, la pâtisserie est mon terrain d'expérimentation favori, où la précision technique se transforme en gourmandise. Enfin, fervente amateur de football, je puise dans ce sport l'énergie du collectif et la détermination, des valeurs que je transpose volontiers dans chacun de mes projets informatiques.</p>
+                <p>Entre deux sessions de code ou de modélisation, je quitte l'écran pour explorer d'autres horizons
+                    créatifs. Passionnée par le visuel, je cultive mon sens du détail et de l'esthétique à travers la
+                    photographie et la mode. Si la musique et la lecture nourrissent mon imaginaire au quotidien, la
+                    pâtisserie est mon terrain d'expérimentation favori, où la précision technique se transforme en
+                    gourmandise. Enfin, fervente amateur de football, je puise dans ce sport l'énergie du collectif et
+                    la détermination, des valeurs que je transpose volontiers dans chacun de mes projets informatiques.
+                </p>
                 <div class="hobbies-slider" tabindex="0">
                     <button class="slider-btn prev" aria-label="Image précédente">&#10094;</button>
                     <div class="slider-track">
@@ -41,6 +54,8 @@
     <footer>
         <p>&copy; 2025 Diatou. Tous droits réservés.</p>
     </footer>
+    <script src="menu.js"></script>
     <script src="slider.js"></script>
 </body>
+
 </html>

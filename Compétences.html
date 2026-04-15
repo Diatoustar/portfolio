@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Compétences - Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <header>
     <nav class="main-nav">
+      <button class="hamburger" id="hamburger-btn" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
       <a href="index.html">Accueil</a>
       <a href="Compétences.html" class="active" aria-current="page">Compétences</a>
       <a href="projets.html">Projets</a>
@@ -39,12 +46,14 @@
         <div class="competence-card">
           <img src="img/Java-Logo.png" alt="JAVA" />
           <h2>Programmation orientée objet</h2>
-          <p>Maîtrise du langage Java et des principes fondamentaux de la POO pour le développement d'applications robustes, modulaires et performantes.</p>
+          <p>Maîtrise du langage Java et des principes fondamentaux de la POO pour le développement d'applications
+            robustes, modulaires et performantes.</p>
         </div>
         <div class="competence-card">
           <img src="img/PHP-logo.svg.png" alt="PHP" />
           <h2>PHP</h2>
-          <p>Langage de script côté serveur utilisé pour le développement d'applications web dynamiques et la gestion de bases de données.</p>
+          <p>Langage de script côté serveur utilisé pour le développement d'applications web dynamiques et la gestion de
+            bases de données.</p>
         </div>
       </div>
     </section>
@@ -52,5 +61,7 @@
   <footer>
     <p>&copy; 2025 Diatou. Tous droits réservés.</p>
   </footer>
+  <script src="menu.js"></script>
 </body>
+
 </html>
